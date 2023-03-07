@@ -3,7 +3,6 @@ from functools import wraps
 import pymongo
 
 app = Flask(__name__)
-# app.secret_key = b'\xcc^\x91\xea\x17-\xd0W\x03\xa7\xf8J0\xac8\xc5'
 app.secret_key = "HEEELLLLOOO"
 
 # Database
@@ -35,4 +34,4 @@ def dashboard():
 
 
 if __name__ == "__main__":
-  app.run(port=8500)
+  app.run(port=5000)
